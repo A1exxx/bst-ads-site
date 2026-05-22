@@ -203,30 +203,6 @@
     });
   });
 
-  /* ---------- RENTAL CALCULATOR ---------- */
-  var calcDays = document.getElementById("calcDays");
-  if (calcDays) {
-    var calcDaysVal = document.getElementById("calcDaysVal");
-    var calcRate = document.getElementById("calcRate");
-    var calcTotal = document.getElementById("calcTotal");
-    var calcPlan = document.getElementById("calcPlan");
-    function calcUpdate() {
-      var days = parseInt(calcDays.value, 10) || 1;
-      var rate, planKey;
-      // Tiers: up to 30 days = Basic, 30+ = Standard, 90+ = Premium
-      if (days >= 90) { rate = 300; planKey = "pricing.rent.p3.name"; }
-      else if (days >= 30) { rate = 500; planKey = "pricing.rent.p2.name"; }
-      else { rate = 700; planKey = "pricing.rent.p1.name"; }
-      calcDaysVal.textContent = days;
-      calcRate.textContent = rate + " ฿";
-      calcTotal.textContent = (days * rate).toLocaleString("en-US") + " ฿";
-      calcPlan.setAttribute("data-i18n", planKey);
-      calcPlan.textContent = t(planKey);
-    }
-    calcDays.addEventListener("input", calcUpdate);
-    calcUpdate();
-  }
-
   /* ---------- CONTACT FORM ---------- */
   var form = document.getElementById("leadForm");
   var success = document.getElementById("formSuccess");

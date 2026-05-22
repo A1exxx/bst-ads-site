@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=2" />
 
   <!-- Local SEO — Google understands BST as a Phuket business -->
   <script type="application/ld+json">
@@ -378,63 +378,27 @@
 
         <div class="pricing-blocks">
           <div class="pricing-block reveal">
-            <h3 class="pricing-block-title" data-i18n="pricing.rent.title">Rent an advertising robot</h3>
-            <div class="plans">
-              <div class="plan">
-                <span class="plan-name" data-i18n="pricing.rent.p1.name">Basic</span>
-                <span class="plan-price"><b>700฿</b>/<span data-i18n="pricing.day">day</span></span>
-                <span class="plan-note" data-i18n="pricing.rent.p1.note">Short campaigns · up to 30 days</span>
-              </div>
-              <div class="plan plan--featured">
-                <span class="plan-tag" data-i18n="pricing.tag.popular">Most chosen</span>
-                <span class="plan-name" data-i18n="pricing.rent.p2.name">Standard</span>
-                <span class="plan-price"><b>500฿</b>/<span data-i18n="pricing.day">day</span></span>
-                <span class="plan-note" data-i18n="pricing.rent.p2.note">From 30 days</span>
-              </div>
-              <div class="plan">
-                <span class="plan-name" data-i18n="pricing.rent.p3.name">Premium</span>
-                <span class="plan-price"><b>300฿</b>/<span data-i18n="pricing.day">day</span></span>
-                <span class="plan-note" data-i18n="pricing.rent.p3.note">Best rate · from 90 days</span>
-              </div>
+            <h3 class="pricing-block-title" data-i18n="pricing.robots.title">Advertising robots</h3>
+            <p class="pricing-block-desc" data-i18n="pricing.robots.desc">A moving advertising robot with your poster and audio clip, placed near your venue.</p>
+            <div class="price-hero">
+              <span class="price-hero-from" data-i18n="pricing.from">from</span>
+              <span class="price-hero-num">300฿</span>
+              <span class="price-hero-unit">/ <span data-i18n="pricing.day">day</span></span>
             </div>
+            <p class="pricing-block-note" data-i18n="pricing.robots.buy">Prefer to own it? Buy a robot — 2D from 43,900฿, 3D from 49,900฿.</p>
+            <a href="#contacts" class="btn btn-ghost pricing-btn" data-i18n="header.cta">Get a quote</a>
           </div>
 
-          <div class="pricing-block reveal">
-            <h3 class="pricing-block-title" data-i18n="pricing.buy.title">Buy an advertising robot</h3>
-            <div class="plans plans--two">
-              <div class="plan">
-                <span class="plan-name" data-i18n="pricing.buy.p1.name">2D advertising robot</span>
-                <span class="plan-price"><span data-i18n="pricing.from">from</span> <b>43,900฿</b></span>
-                <span class="plan-note" data-i18n="pricing.buy.p1.note">Flat-build figure · lightweight</span>
-              </div>
-              <div class="plan plan--featured">
-                <span class="plan-tag" data-i18n="pricing.tag.top">Top pick</span>
-                <span class="plan-name" data-i18n="pricing.buy.p2.name">3D advertising robot</span>
-                <span class="plan-price"><span data-i18n="pricing.from">from</span> <b>49,900฿</b></span>
-                <span class="plan-note" data-i18n="pricing.buy.p2.note">Volumetric build · maximum impact</span>
-              </div>
-            </div>
-            <div class="pricing-foot">
-              <strong data-i18n="pricing.custom.label">Custom production</strong>
-              <span data-i18n="pricing.custom.text"> — light boxes, 3D letters and non-standard signage are priced individually per project.</span>
-              <a href="#contacts" class="service-link" data-i18n="pricing.custom.link">Get a custom quote →</a>
-            </div>
+          <div class="pricing-block pricing-block--accent reveal">
+            <h3 class="pricing-block-title" data-i18n="pricing.custom2.title">Design &amp; production to order</h3>
+            <p class="pricing-block-desc" data-i18n="pricing.custom2.desc">We design and manufacture unique advertising constructions for your brand — starting prices:</p>
+            <ul class="price-list">
+              <li><span data-i18n="pricing.custom2.i1">Standard advertising box</span><b><span data-i18n="pricing.from">from</span> 3,900฿</b></li>
+              <li><span data-i18n="pricing.custom2.i2">Illuminated light box</span><b><span data-i18n="pricing.from">from</span> 6,900฿</b></li>
+              <li><span data-i18n="pricing.custom2.i3">3D channel letters</span><b><span data-i18n="pricing.from">from</span> 9,900฿</b></li>
+            </ul>
+            <a href="#contacts" class="btn btn-primary pricing-btn" data-i18n="header.cta">Get a quote</a>
           </div>
-        </div>
-
-        <div class="calc reveal">
-          <div class="calc-head">
-            <h3 data-i18n="calc.title">Rental cost calculator</h3>
-            <span class="calc-plan" id="calcPlan">Standard</span>
-          </div>
-          <label for="calcDays" class="calc-label" data-i18n="calc.label">Rental period — drag the slider to set the number of days</label>
-          <input type="range" id="calcDays" min="1" max="180" value="30" />
-          <div class="calc-grid">
-            <div class="calc-cell"><span data-i18n="calc.days">Days</span><b id="calcDaysVal">30</b></div>
-            <div class="calc-cell"><span data-i18n="calc.rate">Rate / day</span><b id="calcRate">500฿</b></div>
-            <div class="calc-cell calc-cell--total"><span data-i18n="calc.total">Total</span><b id="calcTotal">15,000฿</b></div>
-          </div>
-          <a href="#contacts" class="btn btn-primary calc-cta" data-i18n="calc.cta">Book this rental</a>
         </div>
 
         <p class="pricing-disclaimer reveal" data-i18n="pricing.disclaimer">
@@ -454,12 +418,12 @@
         </header>
         <!-- EDITOR: add a real photo to a tile via style="background-image:url('images/your-photo.jpg')" on its .work-ph -->
         <div class="work-grid">
-          <figure class="work-tile reveal"><div class="work-ph"></div><figcaption><strong data-i18n="work.t1">Advertising robot</strong><span>Patong</span></figcaption></figure>
-          <figure class="work-tile reveal"><div class="work-ph"></div><figcaption><strong data-i18n="work.t2">Light box</strong><span>Phuket Town</span></figcaption></figure>
-          <figure class="work-tile reveal"><div class="work-ph"></div><figcaption><strong data-i18n="work.t3">3D channel letters</strong><span>Chalong</span></figcaption></figure>
-          <figure class="work-tile reveal"><div class="work-ph"></div><figcaption><strong data-i18n="work.t4">Branded figure</strong><span>Kata</span></figcaption></figure>
-          <figure class="work-tile reveal"><div class="work-ph"></div><figcaption><strong data-i18n="work.t5">Photo zone</strong><span>Bang Tao</span></figcaption></figure>
-          <figure class="work-tile reveal"><div class="work-ph"></div><figcaption><strong data-i18n="work.t6">Storefront signage</strong><span>Rawai</span></figcaption></figure>
+          <figure class="work-tile reveal"><div class="work-ph has-photo" style="background-image:url('images/work-robot.jpg')"></div><figcaption><strong data-i18n="work.t1">Advertising robot</strong><span>Patong</span></figcaption></figure>
+          <figure class="work-tile reveal"><div class="work-ph has-photo" style="background-image:url('images/work-lightbox.jpg')"></div><figcaption><strong data-i18n="work.t2">Light box</strong><span>Phuket Town</span></figcaption></figure>
+          <figure class="work-tile reveal"><div class="work-ph has-photo" style="background-image:url('images/work-letters.jpg')"></div><figcaption><strong data-i18n="work.t3">3D channel letters</strong><span>Chalong</span></figcaption></figure>
+          <figure class="work-tile reveal"><div class="work-ph has-photo" style="background-image:url('images/work-figure.jpg')"></div><figcaption><strong data-i18n="work.t4">Branded figure</strong><span>Kata</span></figcaption></figure>
+          <figure class="work-tile reveal"><div class="work-ph has-photo" style="background-image:url('images/work-photozone.jpg')"></div><figcaption><strong data-i18n="work.t5">Photo zone</strong><span>Bang Tao</span></figcaption></figure>
+          <figure class="work-tile reveal"><div class="work-ph has-photo" style="background-image:url('images/work-storefront.jpg')"></div><figcaption><strong data-i18n="work.t6">Storefront signage</strong><span>Rawai</span></figcaption></figure>
         </div>
       </div>
     </section>
@@ -554,7 +518,7 @@
         <div class="area-grid">
           <div class="area-map reveal">
             <iframe title="BST Phuket service area"
-              src="https://www.openstreetmap.org/export/embed.html?bbox=98.22%2C7.72%2C98.47%2C8.20&amp;layer=mapnik&amp;marker=7.95%2C98.34"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=98.18,7.72,98.50,8.21&amp;layer=mapnik&amp;marker=7.95,98.34"
               loading="lazy"></iframe>
           </div>
           <div class="area-zones reveal">
@@ -709,7 +673,7 @@
     <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.4 5 5.1-1.3A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 20zm4.4-6c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1a6.5 6.5 0 0 1-3.2-2.8c-.1-.2 0-.4.1-.5l.4-.5c.1-.2.1-.3 0-.5l-.7-1.7c-.2-.4-.4-.4-.5-.4h-.5c-.2 0-.5.1-.7.3-.8.8-1 1.9-.7 3a9 9 0 0 0 3.7 4.4c1.5.9 2.7 1 3.6.8.7-.1 1.4-.6 1.6-1.2.2-.5.2-1 .1-1.1-.1-.1-.2-.2-.5-.3z"/></svg>
   </a>
 
-  <script src="translations.js"></script>
-  <script src="script.js"></script>
+  <script src="translations.js?v=2"></script>
+  <script src="script.js?v=2"></script>
 </body>
 </html>
