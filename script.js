@@ -289,4 +289,98 @@
       .then(function (res) { if (res && res.ok) { showSuccess(); } else { showError(); } })
       .catch(showError);
   });
+
+  /* ---------- LEAD MODAL (opened by every quote / CTA button) ---------- */
+  var modal = document.getElementById("leadModal");
+  if (modal) {
+    var modalForm = document.getElementById("modalForm");
+    var modalSubmit = document.getElementById("modalSubmit");
+    var modalSuccess = document.getElementById("modalSuccess");
+    var modalError = document.getElementById("modalError");
+    var lastFocus = null;
+
+    function openModal() {
+      lastFocus = document.activeElement;
+      modal.hidden = false;
+      document.body.style.overflow = "hidden";
+      var n = document.getElementById("m-name");
+      if (n) setTimeout(function () { n.focus(); }, 60);
+    }
+    function closeModal() {
+      modal.hidden = true;
+      document.body.style.overflow = "";
+      if (lastFocus && lastFocus.focus) lastFocus.focus();
+    }
+
+    // Every quote / order CTA button (a.btn pointing at #contacts) opens the modal.
+    document.querySelectorAll('a.btn[href="#contacts"]').forEach(function (b) {
+      b.addEventListener("click", function (e) { e.preventDefault(); openModal(); });
+    });
+    modal.querySelectorAll("[data-modal-close]").forEach(function (el) {
+      el.addEventListener("click", closeModal);
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && !modal.hidden) closeModal();
+    });
+
+    function mSetError(input, msg) {
+      input.classList.toggle("invalid", !!msg);
+      var box = modalForm.querySelector('.field-error[data-for="' + input.id + '"]');
+      if (box) box.textContent = msg || "";
+    }
+    ["m-name", "m-contact"].forEach(function (id) {
+      var i = document.getElementById(id);
+      i.addEventListener("input", function () { if (i.classList.contains("invalid")) mSetError(i, ""); });
+    });
+
+    modalForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      if (modalError) modalError.hidden = true;
+
+      var name = document.getElementById("m-name");
+      var contact = document.getElementById("m-contact");
+      var ok = true;
+      if (!name.value.trim()) { mSetError(name, t("form.err.name")); ok = false; } else { mSetError(name, ""); }
+      if (!contact.value.trim()) { mSetError(contact, t("modal.err.contact")); ok = false; } else { mSetError(contact, ""); }
+      if (!ok) { var fi = modalForm.querySelector(".invalid"); if (fi) fi.focus(); return; }
+
+      modalSubmit.disabled = true;
+      modalSubmit.textContent = t("form.sending");
+
+      var d = Object.fromEntries(new FormData(modalForm).entries());
+      var text = [
+        "New quote request — BST Phuket",
+        "",
+        "Name: " + (d.name || "—"),
+        "Channel: " + (d.channel || "—"),
+        "Contact: " + (d.contact || "—"),
+        "Task: " + (d.task || "—")
+      ].join("\n");
+
+      function mErr() {
+        if (modalError) modalError.hidden = false;
+        modalSubmit.disabled = false;
+        modalSubmit.textContent = t("modal.submit");
+      }
+      function mOk() {
+        modalSuccess.hidden = false;
+        modalSuccess.setAttribute("role", "status");
+      }
+
+      // No Telegram configured yet → demo mode (see FORM_CONFIG at the top).
+      if (!FORM_CONFIG.telegramBotToken || !FORM_CONFIG.telegramChatId) {
+        console.log("[BST] Quote lead (demo — set FORM_CONFIG to deliver to Telegram):\n" + text);
+        setTimeout(mOk, 700);
+        return;
+      }
+      fetch("https://api.telegram.org/bot" + FORM_CONFIG.telegramBotToken + "/sendMessage", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ chat_id: FORM_CONFIG.telegramChatId, text: text })
+      })
+        .then(function (r) { return r.json(); })
+        .then(function (res) { if (res && res.ok) { mOk(); } else { mErr(); } })
+        .catch(mErr);
+    });
+  }
 })();

@@ -18,6 +18,15 @@ window.BST_I18N = {
     "nav.reviews": "Reviews",
     "nav.contacts": "Contacts",
     "header.cta": "Get a quote",
+    "modal.title": "Request a quote",
+    "modal.sub": "A short request — our manager replies within 30 minutes during work hours.",
+    "modal.channel": "Where should we reply?",
+    "modal.contact": "Your contact",
+    "modal.contact.ph": "@username or phone number",
+    "modal.task": "Briefly — what do you need?",
+    "modal.task.ph": "e.g. light box for a cafe, about 1.5m wide",
+    "modal.submit": "Send request",
+    "modal.err.contact": "Please add a contact so we can reply.",
 
     "hero.eyebrow": "Phuket, Thailand · Outdoor advertising studio",
     "hero.title": "Outdoor advertising<br>that actually gets <span class=\"hl\">noticed</span>.",
@@ -60,7 +69,7 @@ window.BST_I18N = {
 
     "marquee": ["Advertising Robots", "Custom Signage", "Light Boxes", "3D Channel Letters", "Photo Zones", "Non-Standard Solutions"],
 
-    "services.tag": "01 — Services",
+    "services.tag": "Services",
     "services.head": "Three ways to put your offer<br>in front of every passer-by.",
     "services.badge": "New",
     "services.s1.title": "Rent an advertising robot",
@@ -82,7 +91,7 @@ window.BST_I18N = {
     "services.s3.l3": "Priced individually per project",
     "services.s3.link": "Explore custom production →",
 
-    "custom.tag": "02 — Custom Production",
+    "custom.tag": "Custom Production",
     "custom.head": "Unique outdoor advertising,<br>built to your order.",
     "custom.note": "Not every brand fits a standard sign. We design and manufacture non-standard advertising — the kind that makes people <span class=\"hl\">stop, look and remember</span>.",
     "custom.b1.title": "Light boxes & illuminated signs",
@@ -99,7 +108,7 @@ window.BST_I18N = {
     "custom.cta.desc": "Send us a rough sketch, a reference, or just a description — we will turn it into a producible design with a fixed quote.",
     "custom.cta.btn": "Request a custom quote",
 
-    "process.tag": "03 — How It Works",
+    "process.tag": "How It Works",
     "process.head": "From request to a working<br>advertisement in four steps.",
     "process.p1.title": "You submit a request",
     "process.p1.desc": "Tell us your goal and venue. A personal manager replies within 30 minutes during work hours.",
@@ -110,7 +119,7 @@ window.BST_I18N = {
     "process.p4.title": "Delivery & setup",
     "process.p4.desc": "We deliver the robot or sign to your address. Self-pickup is also available — ask your manager.",
 
-    "adv.tag": "04 — Why It Works",
+    "adv.tag": "Why It Works",
     "adv.head": "Advertising people<br>can't walk past.",
     "adv.a1.title": "Drives foot traffic",
     "adv.a1.desc": "Eye-catching outdoor advertising captures attention at the exact moment people decide where to go.",
@@ -121,7 +130,7 @@ window.BST_I18N = {
     "adv.a4.title": "All-weather",
     "adv.a4.desc": "Built to keep working rain or shine, day or night — your advertising never takes a break.",
 
-    "pricing.tag": "05 — Pricing",
+    "pricing.tag": "Pricing",
     "pricing.head": "Clear prices.<br>No surprises.",
     "pricing.robots.title": "Advertising robots",
     "pricing.robots.desc": "A moving advertising robot with your poster and audio clip, placed near your venue.",
@@ -152,7 +161,7 @@ window.BST_I18N = {
     "pricing.custom.link": "Get a custom quote →",
     "pricing.disclaimer": "Content creation (advertising audio clip + poster design and printing) is priced individually based on your campaign. Prices in Thai Baht (฿).",
 
-    "reviews.tag": "06 — Reviews",
+    "reviews.tag": "Reviews",
     "reviews.head": "Businesses on the island<br>already moving with BST.",
     "reviews.r1.text": "The robot stood right by our entrance for the opening week — we had the busiest launch we could have hoped for. Setup was effortless.",
     "reviews.r1.role": "Café owner · Rawai",
@@ -162,7 +171,7 @@ window.BST_I18N = {
     "reviews.r3.role": "Restaurant · Patong",
     "reviews.foot": "See more from real campaigns on our <a href=\"https://instagram.com/bst.phuket\" target=\"_blank\" rel=\"noopener\">Instagram</a>.",
 
-    "faq.tag": "07 — FAQ",
+    "faq.tag": "FAQ",
     "faq.head": "Good questions,<br>straight answers.",
     "faq.q1": "Why do advertising robots increase sales?",
     "faq.a1": "Advertising robots are a powerful attention tool. Almost everyone passing by notices your offer — and that consistent visibility turns into more interest and more sales.",
@@ -177,7 +186,7 @@ window.BST_I18N = {
     "faq.q6": "Do you deliver across Phuket?",
     "faq.a6": "Yes — we deliver advertising robots and custom signage island-wide in Phuket. Self-pickup is also available. Confirm delivery details with your personal manager.",
 
-    "contacts.tag": "08 — Contacts",
+    "contacts.tag": "Contacts",
     "contacts.head": "Leave a request — a manager replies within 30 minutes.",
     "contacts.lead": "During work hours. Prefer to message directly? Reach us on any channel below.",
     "contacts.phone": "Call / Phone",
@@ -205,7 +214,7 @@ window.BST_I18N = {
     "form.sending": "Sending...",
 
     "nav.about": "About",
-    "about.tag": "— About BST",
+    "about.tag": "About BST",
     "about.head": "A Phuket team that knows<br>the island's streets.",
     "about.lead": "BST is a local outdoor-advertising studio based on Phuket. We design, produce and deliver advertising robots and custom signage right here on the island — and we know exactly where, when and how outdoor advertising works best in Phuket.",
     "about.p1t": "Local, not outsourced",
@@ -221,7 +230,7 @@ window.BST_I18N = {
     "calc.rate": "Rate / day",
     "calc.total": "Total",
     "calc.cta": "Book this rental",
-    "work.tag": "— Our Work",
+    "work.tag": "Our Work",
     "work.head": "Robots and signage<br>working across Phuket.",
     "work.note": "Advertising robots, light boxes, 3D letters and custom installations — produced and installed for businesses across Phuket.",
     "work.t1": "Advertising robot",
@@ -230,7 +239,7 @@ window.BST_I18N = {
     "work.t4": "Branded figure",
     "work.t5": "Photo zone",
     "work.t6": "Storefront signage",
-    "area.tag": "— Service Area",
+    "area.tag": "Service Area",
     "area.head": "We cover the whole<br>island of Phuket.",
     "area.lead": "We deliver and install advertising robots and custom signage in every district of the island:",
     "area.foot": "Not sure we reach your spot? Just ask — delivery is island-wide.",
@@ -262,6 +271,15 @@ window.BST_I18N = {
     "nav.reviews": "Отзывы",
     "nav.contacts": "Контакты",
     "header.cta": "Получить расчёт",
+    "modal.title": "Заявка на расчёт",
+    "modal.sub": "Короткая заявка — менеджер ответит в течение 30 минут в рабочее время.",
+    "modal.channel": "Куда вам ответить?",
+    "modal.contact": "Ваш контакт",
+    "modal.contact.ph": "@юзернейм или номер телефона",
+    "modal.task": "Кратко — что нужно?",
+    "modal.task.ph": "напр. световой короб для кафе, ~1,5 м",
+    "modal.submit": "Отправить заявку",
+    "modal.err.contact": "Укажите контакт, чтобы мы могли ответить.",
 
     "hero.eyebrow": "Пхукет, Таиланд · студия наружной рекламы",
     "hero.title": "Наружная реклама,<br>которую <span class=\"hl\">замечают</span>.",
@@ -304,7 +322,7 @@ window.BST_I18N = {
 
     "marquee": ["Рекламные роботы", "Вывески под заказ", "Лайтбоксы", "Объёмные буквы", "Фотозоны", "Нестандартные решения"],
 
-    "services.tag": "01 — Услуги",
+    "services.tag": "Услуги",
     "services.head": "Три способа показать ваше предложение<br>каждому прохожему.",
     "services.badge": "Новое",
     "services.s1.title": "Аренда рекламного робота",
@@ -326,7 +344,7 @@ window.BST_I18N = {
     "services.s3.l3": "Цена индивидуально под проект",
     "services.s3.link": "Подробнее о производстве →",
 
-    "custom.tag": "02 — Реклама под заказ",
+    "custom.tag": "Реклама под заказ",
     "custom.head": "Уникальная наружная реклама,<br>изготовленная под ваш заказ.",
     "custom.note": "Не каждому бренду подходит стандартная вывеска. Мы проектируем и производим нестандартную рекламу — ту, рядом с которой люди <span class=\"hl\">останавливаются, смотрят и запоминают</span>.",
     "custom.b1.title": "Лайтбоксы и световые вывески",
@@ -343,7 +361,7 @@ window.BST_I18N = {
     "custom.cta.desc": "Пришлите эскиз, референс или просто описание — мы превратим это в готовый к производству проект с фиксированной ценой.",
     "custom.cta.btn": "Запросить расчёт под заказ",
 
-    "process.tag": "03 — Как мы работаем",
+    "process.tag": "Как мы работаем",
     "process.head": "От заявки до работающей<br>рекламы — за четыре шага.",
     "process.p1.title": "Вы оставляете заявку",
     "process.p1.desc": "Расскажите о цели и месте размещения. Персональный менеджер ответит в течение 30 минут в рабочее время.",
@@ -354,7 +372,7 @@ window.BST_I18N = {
     "process.p4.title": "Доставка и установка",
     "process.p4.desc": "Доставляем робота или вывеску по вашему адресу. Возможен и самовывоз — уточните у менеджера.",
 
-    "adv.tag": "04 — Почему это работает",
+    "adv.tag": "Почему это работает",
     "adv.head": "Реклама, мимо которой<br>не пройти.",
     "adv.a1.title": "Привлекает поток людей",
     "adv.a1.desc": "Заметная наружная реклама привлекает внимание ровно в тот момент, когда люди решают, куда пойти.",
@@ -365,7 +383,7 @@ window.BST_I18N = {
     "adv.a4.title": "В любую погоду",
     "adv.a4.desc": "Работает в дождь и в зной, днём и ночью — ваша реклама не берёт перерывов.",
 
-    "pricing.tag": "05 — Цены",
+    "pricing.tag": "Цены",
     "pricing.head": "Понятные цены.<br>Без сюрпризов.",
     "pricing.robots.title": "Рекламные роботы",
     "pricing.robots.desc": "Движущийся рекламный робот с вашим плакатом и аудиоклипом рядом с вашим заведением.",
@@ -396,7 +414,7 @@ window.BST_I18N = {
     "pricing.custom.link": "Запросить расчёт под заказ →",
     "pricing.disclaimer": "Создание контента (рекламный аудиоклип + дизайн и печать плаката) рассчитывается индивидуально под вашу кампанию. Цены указаны в тайских батах (฿).",
 
-    "reviews.tag": "06 — Отзывы",
+    "reviews.tag": "Отзывы",
     "reviews.head": "Бизнесы острова,<br>которые уже двигаются с BST.",
     "reviews.r1.text": "Робот стоял прямо у нашего входа всю неделю открытия — у нас был самый загруженный запуск, на какой мы только могли рассчитывать. Установка прошла без хлопот.",
     "reviews.r1.role": "Владелица кафе · Раваи",
@@ -406,7 +424,7 @@ window.BST_I18N = {
     "reviews.r3.role": "Ресторан · Патонг",
     "reviews.foot": "Больше реальных кампаний — в нашем <a href=\"https://instagram.com/bst.phuket\" target=\"_blank\" rel=\"noopener\">Instagram</a>.",
 
-    "faq.tag": "07 — Вопросы и ответы",
+    "faq.tag": "Вопросы и ответы",
     "faq.head": "Хорошие вопросы —<br>прямые ответы.",
     "faq.q1": "Почему рекламные роботы увеличивают продажи?",
     "faq.a1": "Рекламный робот — мощный инструмент привлечения внимания. Почти каждый прохожий замечает ваше предложение, и эта постоянная видимость превращается в рост интереса и продаж.",
@@ -421,7 +439,7 @@ window.BST_I18N = {
     "faq.q6": "Вы доставляете по всему Пхукету?",
     "faq.a6": "Да — мы доставляем рекламных роботов и вывески под заказ по всему острову Пхукет. Возможен и самовывоз. Детали доставки уточняйте у персонального менеджера.",
 
-    "contacts.tag": "08 — Контакты",
+    "contacts.tag": "Контакты",
     "contacts.head": "Оставьте заявку — менеджер ответит в течение 30 минут.",
     "contacts.lead": "В рабочее время. Хотите написать напрямую? Свяжитесь с нами в любом мессенджере ниже.",
     "contacts.phone": "Звонок / телефон",
@@ -449,7 +467,7 @@ window.BST_I18N = {
     "form.sending": "Отправка...",
 
     "nav.about": "О нас",
-    "about.tag": "— О BST",
+    "about.tag": "О BST",
     "about.head": "Команда на Пхукете,<br>которая знает улицы острова.",
     "about.lead": "BST — локальная студия наружной рекламы на Пхукете. Мы разрабатываем, производим и доставляем рекламных роботов и вывески под заказ прямо здесь, на острове, — и точно знаем, где, когда и как наружная реклама работает на Пхукете лучше всего.",
     "about.p1t": "Локально, без подрядчиков",
@@ -465,7 +483,7 @@ window.BST_I18N = {
     "calc.rate": "Ставка / день",
     "calc.total": "Итого",
     "calc.cta": "Забронировать аренду",
-    "work.tag": "— Наши работы",
+    "work.tag": "Наши работы",
     "work.head": "Роботы и вывески<br>работают по всему Пхукету.",
     "work.note": "Рекламные роботы, лайтбоксы, объёмные буквы и нестандартные конструкции — изготовлено и установлено для бизнесов по всему Пхукету.",
     "work.t1": "Рекламный робот",
@@ -474,7 +492,7 @@ window.BST_I18N = {
     "work.t4": "Брендовая фигура",
     "work.t5": "Фотозона",
     "work.t6": "Вывеска витрины",
-    "area.tag": "— Зона обслуживания",
+    "area.tag": "Зона обслуживания",
     "area.head": "Мы покрываем весь<br>остров Пхукет.",
     "area.lead": "Доставляем и устанавливаем рекламных роботов и вывески под заказ в каждом районе острова:",
     "area.foot": "Не уверены, что доберёмся до вашего места? Просто спросите — доставка по всему острову.",
@@ -508,6 +526,15 @@ window.BST_I18N = {
     "nav.reviews": "รีวิว",
     "nav.contacts": "ติดต่อ",
     "header.cta": "ขอใบเสนอราคา",
+    "modal.title": "ขอใบเสนอราคา",
+    "modal.sub": "คำขอสั้นๆ — ผู้จัดการของเราตอบกลับภายใน 30 นาทีในเวลาทำการ",
+    "modal.channel": "ให้เราตอบกลับทางไหน?",
+    "modal.contact": "ช่องทางติดต่อของคุณ",
+    "modal.contact.ph": "@ชื่อผู้ใช้ หรือ เบอร์โทรศัพท์",
+    "modal.task": "บอกสั้นๆ — คุณต้องการอะไร?",
+    "modal.task.ph": "เช่น กล่องไฟสำหรับคาเฟ่ กว้างประมาณ 1.5 ม.",
+    "modal.submit": "ส่งคำขอ",
+    "modal.err.contact": "กรุณาระบุช่องทางติดต่อเพื่อให้เราตอบกลับได้",
 
     "hero.eyebrow": "ภูเก็ต ประเทศไทย · สตูดิโอโฆษณากลางแจ้ง",
     "hero.title": "โฆษณากลางแจ้ง<br>ที่ผู้คน<span class=\"hl\">สังเกตเห็น</span>จริง",
@@ -544,7 +571,7 @@ window.BST_I18N = {
 
     "marquee": ["หุ่นยนต์โฆษณา", "ป้ายสั่งทำ", "กล่องไฟ", "ตัวอักษร 3 มิติ", "มุมถ่ายรูป", "โซลูชันแบบพิเศษ"],
 
-    "services.tag": "01 — บริการ",
+    "services.tag": "บริการ",
     "services.head": "สามวิธีนำข้อเสนอของคุณ<br>ไปอยู่ตรงหน้าทุกคนที่เดินผ่าน",
     "services.badge": "ใหม่",
     "services.s1.title": "เช่าหุ่นยนต์โฆษณา",
@@ -566,7 +593,7 @@ window.BST_I18N = {
     "services.s3.l3": "คิดราคาเฉพาะแต่ละโปรเจกต์",
     "services.s3.link": "ดูงานสั่งทำ →",
 
-    "custom.tag": "02 — งานสั่งทำ",
+    "custom.tag": "งานสั่งทำ",
     "custom.head": "โฆษณากลางแจ้งที่ไม่เหมือนใคร<br>ผลิตตามสั่งของคุณ",
     "custom.note": "ไม่ใช่ทุกแบรนด์ที่เหมาะกับป้ายมาตรฐาน เราออกแบบและผลิตโฆษณาแบบพิเศษ — แบบที่ทำให้ผู้คน<span class=\"hl\">หยุด มอง และจดจำ</span>",
     "custom.b1.title": "กล่องไฟและป้ายเรืองแสง",
@@ -583,7 +610,7 @@ window.BST_I18N = {
     "custom.cta.desc": "ส่งภาพร่าง ตัวอย่างอ้างอิง หรือเพียงคำอธิบายมาให้เรา — เราจะเปลี่ยนมันให้เป็นแบบที่ผลิตได้จริงพร้อมราคาที่แน่นอน",
     "custom.cta.btn": "ขอใบเสนอราคางานสั่งทำ",
 
-    "process.tag": "03 — ขั้นตอนการทำงาน",
+    "process.tag": "ขั้นตอนการทำงาน",
     "process.head": "จากคำขอสู่โฆษณาที่ใช้งานได้จริง<br>ในสี่ขั้นตอน",
     "process.p1.title": "คุณส่งคำขอ",
     "process.p1.desc": "บอกเป้าหมายและสถานที่ของคุณ ผู้จัดการส่วนตัวจะตอบกลับภายใน 30 นาทีในเวลาทำการ",
@@ -594,7 +621,7 @@ window.BST_I18N = {
     "process.p4.title": "จัดส่งและติดตั้ง",
     "process.p4.desc": "เราจัดส่งหุ่นยนต์หรือป้ายไปที่อยู่ของคุณ มารับเองก็ได้ — สอบถามผู้จัดการของคุณ",
 
-    "adv.tag": "04 — ทำไมจึงได้ผล",
+    "adv.tag": "ทำไมจึงได้ผล",
     "adv.head": "โฆษณาที่ผู้คน<br>เดินผ่านไปเฉยๆ ไม่ได้",
     "adv.a1.title": "ดึงคนเข้าร้าน",
     "adv.a1.desc": "โฆษณากลางแจ้งที่สะดุดตาดึงความสนใจในจังหวะที่ผู้คนกำลังตัดสินใจว่าจะไปไหน",
@@ -605,7 +632,7 @@ window.BST_I18N = {
     "adv.a4.title": "ทุกสภาพอากาศ",
     "adv.a4.desc": "สร้างมาให้ทำงานต่อได้ทั้งฝนตกแดดออก กลางวันกลางคืน — โฆษณาของคุณไม่มีหยุดพัก",
 
-    "pricing.tag": "05 — ราคา",
+    "pricing.tag": "ราคา",
     "pricing.head": "ราคาชัดเจน<br>ไม่มีค่าใช้จ่ายแอบแฝง",
     "pricing.robots.title": "หุ่นยนต์โฆษณา",
     "pricing.robots.desc": "หุ่นยนต์โฆษณาเคลื่อนที่พร้อมโปสเตอร์และคลิปเสียงของคุณ ตั้งไว้ใกล้ร้านของคุณ",
@@ -636,7 +663,7 @@ window.BST_I18N = {
     "pricing.custom.link": "ขอใบเสนอราคางานสั่งทำ →",
     "pricing.disclaimer": "การสร้างเนื้อหา (คลิปเสียงโฆษณา + ออกแบบและพิมพ์โปสเตอร์) คิดราคาเฉพาะตามแคมเปญของคุณ ราคาเป็นเงินบาทไทย (฿)",
 
-    "reviews.tag": "06 — รีวิว",
+    "reviews.tag": "รีวิว",
     "reviews.head": "ธุรกิจบนเกาะ<br>ที่ขับเคลื่อนไปกับ BST แล้ว",
     "reviews.r1.text": "หุ่นยนต์ตั้งอยู่หน้าทางเข้าของเราตลอดสัปดาห์เปิดร้าน — เรามีวันเปิดที่คึกคักที่สุดเท่าที่หวังได้ การติดตั้งง่ายมาก",
     "reviews.r1.role": "เจ้าของคาเฟ่ · ราไวย์",
@@ -646,7 +673,7 @@ window.BST_I18N = {
     "reviews.r3.role": "ร้านอาหาร · ป่าตอง",
     "reviews.foot": "ดูแคมเปญจริงเพิ่มเติมได้ที่ <a href=\"https://instagram.com/bst.phuket\" target=\"_blank\" rel=\"noopener\">Instagram</a> ของเรา",
 
-    "faq.tag": "07 — คำถามที่พบบ่อย",
+    "faq.tag": "คำถามที่พบบ่อย",
     "faq.head": "คำถามที่ดี<br>คำตอบที่ตรงไปตรงมา",
     "faq.q1": "ทำไมหุ่นยนต์โฆษณาจึงเพิ่มยอดขาย?",
     "faq.a1": "หุ่นยนต์โฆษณาเป็นเครื่องมือดึงความสนใจที่ทรงพลัง เกือบทุกคนที่เดินผ่านจะเห็นข้อเสนอของคุณ — และการมองเห็นอย่างสม่ำเสมอนั้นเปลี่ยนเป็นความสนใจและยอดขายที่มากขึ้น",
@@ -661,7 +688,7 @@ window.BST_I18N = {
     "faq.q6": "คุณจัดส่งทั่วภูเก็ตไหม?",
     "faq.a6": "ใช่ — เราจัดส่งหุ่นยนต์โฆษณาและป้ายสั่งทำทั่วเกาะภูเก็ต มารับเองก็ได้ ยืนยันรายละเอียดการจัดส่งกับผู้จัดการส่วนตัวของคุณ",
 
-    "contacts.tag": "08 — ติดต่อ",
+    "contacts.tag": "ติดต่อ",
     "contacts.head": "ฝากคำขอไว้ — ผู้จัดการตอบกลับภายใน 30 นาที",
     "contacts.lead": "ในเวลาทำการ อยากทักหาเราโดยตรงไหม? ติดต่อได้ทุกช่องทางด้านล่าง",
     "contacts.phone": "โทร / โทรศัพท์",
@@ -689,7 +716,7 @@ window.BST_I18N = {
     "form.sending": "กำลังส่ง...",
 
     "nav.about": "เกี่ยวกับเรา",
-    "about.tag": "— เกี่ยวกับ BST",
+    "about.tag": "เกี่ยวกับ BST",
     "about.head": "ทีมงานภูเก็ต<br>ที่รู้จักทุกถนนบนเกาะ",
     "about.lead": "BST คือสตูดิโอโฆษณากลางแจ้งท้องถิ่นบนเกาะภูเก็ต เราออกแบบ ผลิต และจัดส่งหุ่นยนต์โฆษณาและป้ายสั่งทำที่นี่บนเกาะ — และเรารู้ดีว่าโฆษณากลางแจ้งทำงานได้ดีที่สุดที่ไหน เมื่อไร และอย่างไรในภูเก็ต",
     "about.p1t": "ท้องถิ่น ไม่ใช่จ้างช่วง",
@@ -705,7 +732,7 @@ window.BST_I18N = {
     "calc.rate": "ราคา / วัน",
     "calc.total": "รวม",
     "calc.cta": "จองการเช่านี้",
-    "work.tag": "— ผลงานของเรา",
+    "work.tag": "ผลงานของเรา",
     "work.head": "หุ่นยนต์และป้าย<br>ทำงานทั่วภูเก็ต",
     "work.note": "หุ่นยนต์โฆษณา กล่องไฟ ตัวอักษร 3 มิติ และงานติดตั้งพิเศษ — ผลิตและติดตั้งให้ธุรกิจทั่วภูเก็ต",
     "work.t1": "หุ่นยนต์โฆษณา",
@@ -714,7 +741,7 @@ window.BST_I18N = {
     "work.t4": "หุ่นแบรนด์",
     "work.t5": "มุมถ่ายรูป",
     "work.t6": "ป้ายหน้าร้าน",
-    "area.tag": "— พื้นที่ให้บริการ",
+    "area.tag": "พื้นที่ให้บริการ",
     "area.head": "เราครอบคลุม<br>ทั่วทั้งเกาะภูเก็ต",
     "area.lead": "เราจัดส่งและติดตั้งหุ่นยนต์โฆษณาและป้ายสั่งทำในทุกอำเภอของเกาะ:",
     "area.foot": "ไม่แน่ใจว่าเราไปถึงจุดของคุณไหม? สอบถามได้เลย — จัดส่งทั่วทั้งเกาะ",

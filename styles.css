@@ -1107,3 +1107,28 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 700; line-height
 .price-list li b { font-family: var(--font-display); font-size: 1.1rem; white-space: nowrap; font-variant-numeric: tabular-nums; }
 .price-list li b span { font-family: var(--font-body); font-weight: 400; font-size: .82rem; color: var(--text-3); }
 .pricing-btn { width: 100%; margin-top: auto; }
+
+/* ---------- LEAD MODAL ---------- */
+.modal { position: fixed; inset: 0; z-index: 1000; display: flex; align-items: center; justify-content: center; padding: 20px; }
+.modal[hidden] { display: none; }
+.modal-overlay { position: absolute; inset: 0; background: rgba(8, 8, 10, 0.72); backdrop-filter: blur(4px); }
+.modal-card {
+  position: relative; width: 100%; max-width: 440px;
+  max-height: calc(100dvh - 40px); overflow-y: auto;
+  background: var(--bg-2); border: 1px solid var(--line);
+  border-radius: var(--radius-lg); padding: 32px;
+  box-shadow: 0 30px 70px -20px rgba(0, 0, 0, 0.6);
+  animation: modal-in .35s var(--ease);
+}
+@keyframes modal-in { from { opacity: 0; transform: translateY(20px) scale(.97); } to { opacity: 1; transform: none; } }
+.modal-close {
+  position: absolute; top: 15px; right: 15px; z-index: 2;
+  width: 36px; height: 36px; border-radius: 50%;
+  display: grid; place-items: center;
+  color: var(--text-2); border: 1px solid var(--line); background: var(--bg-2);
+  transition: color .2s var(--ease), border-color .2s var(--ease);
+}
+.modal-close:hover { color: var(--text); border-color: var(--text-2); }
+.modal-card h3 { font-size: 1.5rem; padding-right: 38px; }
+.modal-sub { color: var(--text-2); font-size: .95rem; margin: 8px 0 22px; }
+.modal-card .form-success { border-radius: var(--radius-lg); }
